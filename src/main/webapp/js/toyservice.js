@@ -6,7 +6,7 @@ angular.module('toyApp.services', []).
         toyQueryAPI.getToys = function() {
             return $http({
                 method: 'GET',
-                url: 'http://localhost:7001/ToyStore/rest/toys'
+                url: 'http://172.20.7.92:7001/ToyStore/rest/toys'
             });
         }
         return toyQueryAPI;

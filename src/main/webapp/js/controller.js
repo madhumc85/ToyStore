@@ -9,7 +9,7 @@ angular.module('toyApp.controllers', [])
 
     $scope.gridOptions = {
         data: 'toyList',
-        columnDefs: [{field:'id', displayName:'ID'}, {field:'name', displayName:'Name'}],
+        columnDefs: [{field:'id', displayName:'ID'}, {field:'name', displayName:'Name'}, {field:'title', displayName:'Title'}, {field:'gender', displayName:'Gender'}],
         showGroupPanel: true,
         jqueryUITheme: true
     };
